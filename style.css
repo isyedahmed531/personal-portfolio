@@ -122,3 +122,16 @@
             box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
         }
 
+* {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

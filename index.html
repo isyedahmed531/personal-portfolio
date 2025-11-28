@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artisan Coffee Co. - Premium Coffee Experience</title>
-           <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-  <section class="align-ment">
-     <div class="contact-heading">
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
@@ -32,37 +30,67 @@
         <div class="hero-content">
             <h1>Premium Coffee Experience</h1>
             <p>Crafted with passion, served with excellence</p>
-            <a href="#products" class="cta-button">Explore Our Beans</a>
+            <a href="#contact" class="cta-button">Explore Our Beans</a>
         </div>
     </section>
 
-  <section class="contact">
-    <div class="contact-heading">
-      <h2>Get in Touch</h2>
-      
-    </div>
-    <div class="contact">
-   
-    <div class="contact-form">
-      <form action="form-for-contact">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="required">
-        <label for="Email"> Email</label>
-        <input type="email" id="Email" name="required">
-        <label for="massege">Messege</label>
-        <textarea name="Massege" id="Messege"></textarea>
-        <button type="submit-button" class="btn" >Send Messege</button>
-      </form>
-     </div>
-  </section>
-  <footer>
-    <div class="social-links">
-    <a href="#">Twitter</a>
-    <a href="#">Facebook</a>
-    <a href="#">Whattsapp</a>
-    </div>
-    &copy;2025 all right reserved artistan coffee
-  </footer>
-</body>  
-  <script src="app.js"></script>  
+    <!-- Contact Section -->
+    <section class="align-ment" id="contact">
+        <h2 class="contact-heading">Get in Touch</h2>
+        
+        <div class="contact">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+        <div class="copyright">
+            &copy; 2025 All Rights Reserved - Artisan Coffee
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
 </html>

@@ -3,25 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Artisan Coffee Co. - Premium Coffee Experience</title>
+           <link rel="stylesheet" href="style.css">
 </head>
-<body>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ARTISAN COFFEE</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Premium Coffee Experience</h1>
+            <p>Crafted with passion, served with excellence</p>
+            <a href="#products" class="cta-button">Explore Our Beans</a>
+        </div>
+    </section>
+
   <section class="contact">
     <div class="contact-heading">
       <h2>Get in Touch</h2>
       
     </div>
     <div class="contact-form">
-<form action="form-for-contact">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="required">
-  <label for="Email"> Email</label>
-  <input type="email" id="Email" name="required">
-  <label for="massege">Messege</label>
-  <textarea name="Massege" id="Messege"></textarea>
-  <button type="submit-button" >Send Messege</button>
-</form>
+      <form action="form-for-contact">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="required">
+        <label for="Email"> Email</label>
+        <input type="email" id="Email" name="required">
+        <label for="massege">Messege</label>
+        <textarea name="Massege" id="Messege"></textarea>
+        <button type="submit-button" >Send Messege</button>
+      </form>
     </div>
   </section>
   <footer>

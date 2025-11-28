@@ -9,3 +9,56 @@
   display: flex;
   align-items: center;
 }
+
+/* Hero Section */
+ .hero {
+ height: 100vh;
+ background: linear-gradient(rgba(44, 24, 16, 0.5), rgba(44, 24, 16, 0.5)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%234a3728" width="1200" height="800"/><circle cx="600" cy="400" r="300" fill="%235c4533" opacity="0.3"/><circle cx="300" cy="200" r="150" fill="%236b5444" opacity="0.2"/><circle cx="900" cy="600" r="200" fill="%236b5444" opacity="0.2"/></svg>');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ color: #fff;
+ position: relative;
+ }
+
+ .hero-content {
+  animation: fadeInUp 1s ease;
+ max-width: 800px;
+ padding: 0 2rem;
+}
+
+.hero h1 {
+ font-size: 4rem;
+ margin-bottom: 1rem;
+letter-spacing: 3px;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+ }
+
+ .hero p {
+ font-size: 1.5rem;
+ margin-bottom: 2rem;
+  color: #d4a574;
+ }
+
+.cta-button {
+ display: inline-block;
+ padding: 1rem 3rem;
+ background: #d4a574;
+ color: #2c1810;
+ text-decoration: none;
+ border-radius: 50px;
+ font-weight: bold;
+  transition: all 0.3s ease;
+ box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
+  }
+
+  .cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(212, 165, 116, 0.5);
+   background: #e0b685;
+}

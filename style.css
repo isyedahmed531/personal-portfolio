@@ -157,4 +157,12 @@ text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 .nav-links.active {
                 left: 0;
 }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
 }

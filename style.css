@@ -44,7 +44,7 @@
     color: #f0e8e2;
     max-width: 85%;
 }
-/* Responsive */
+/* Responsive About Section */
 @media (max-width: 992px) {
     .about-container {
         grid-template-columns: 1fr;

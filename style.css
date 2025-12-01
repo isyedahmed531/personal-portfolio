@@ -1,8 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* Primary Colors */
+:root{
+   /* Primary Colors */
 --dark-brown: #2c1810;        /* Main text, navbar, footer background */
 --medium-brown: #4a3728;      /* Gradients, accents */
 --light-brown: #6b5444;       /* Secondary text, subtle accents */
@@ -16,6 +13,12 @@
 --light-cream: #e0d5c7;       /* Borders, subtle dividers */
 --white: #ffffff;             /* Card backgrounds */
 --off-white: #f5f5f5;         /* Light text on dark backgrounds */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
 .contact-section{
   display: flex;

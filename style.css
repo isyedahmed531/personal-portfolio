@@ -1,3 +1,46 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Primary Colors */
+--dark-brown: #2c1810;        /* Main text, navbar, footer background */
+--medium-brown: #4a3728;      /* Gradients, accents */
+--light-brown: #6b5444;       /* Secondary text, subtle accents */
+
+/* Accent Colors */
+--gold: #d4a574;              /* Primary accent, links, highlights */
+--light-gold: #e0b685;        /* Hover states for gold elements */
+
+/* Neutral Colors */
+--cream: #f9f5f0;             /* Section backgrounds */
+--light-cream: #e0d5c7;       /* Borders, subtle dividers */
+--white: #ffffff;             /* Card backgrounds */
+--off-white: #f5f5f5;         /* Light text on dark backgrounds */
+}
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-heading{
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+.contact-p{
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+.contact-form{
+  box-shadow: 0 10px 50px rgba(0,0,0,0.1);
+  padding: 2rem 3rem;
+}
+input,textarea{
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+  border: 2px solid ;
+}
+textarea{
+  resize: vertical;
+  min-height: 150px;
 }

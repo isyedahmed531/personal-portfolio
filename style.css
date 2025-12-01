@@ -20,8 +20,8 @@
 }
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-  max-width: 1400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 300px;
   margin: 0 auto;
 }
  .product-card {

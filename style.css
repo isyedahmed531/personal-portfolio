@@ -49,6 +49,19 @@
   color: #d4a574;
  }
  .product-info{
+  padding: 2rem;
+ }
+ .product-info h3{
+  font-size: 1.5rem;
+  color: #d4a574;
   
  }
+ .product-info p{
+  color: #6b5444;
 
+ }
+ .product-price {
+  font-size:1.5rem;
+  color: #d4a574;
+  font-weight:bold;
+ }

@@ -44,3 +44,30 @@
     color: #f0e8e2;
     max-width: 85%;
 }
+/* Responsive */
+@media (max-width: 992px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-content p {
+        max-width: 100%;
+        margin: 0 auto 20PX;
+    }
+
+    .about-image {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+    .about-image {
+        height: 250px;
+        font-size: 64PX;
+    }
+}

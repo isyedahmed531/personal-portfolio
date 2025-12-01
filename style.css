@@ -74,7 +74,7 @@ label{
   font-weight: bold;
   color: var(--light-cream);
   background: #2c1810;
-  border-radius: 30px;
+  border-radius: 28px;
   border: 1px solid #d4a574;
 }
 .btn:hover{
